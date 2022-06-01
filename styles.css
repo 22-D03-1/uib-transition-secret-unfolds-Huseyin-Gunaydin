@@ -12,16 +12,17 @@ body {
     justify-content: center;
     align-items: center;
     position: relative;
-    width: 600px;
     height: 300px;
+    width: 600px;
+
 }
 
 
 
-p {
+h1 {
     font-size: 3rem;
 }
-.container:hover p{
+.container:hover h1{
     font-size: 6rem;
     color: mediumseagreen;
     transform: rotateZ(360deg);
@@ -29,11 +30,11 @@ p {
 }
 
 
-.box {
+#box {
     width: 150px;
-    aspect-ratio: 1;
     transition:all 1s ease-in-out;
     object-fit: cover;
+    aspect-ratio: 1;
 }
 
 
