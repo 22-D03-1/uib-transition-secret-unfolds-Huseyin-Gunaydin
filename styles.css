@@ -12,8 +12,8 @@ body {
     justify-content: center;
     align-items: center;
     position: relative;
-    height: 300px;
-    width: 600px;
+    height: 400px;
+    width: 800px;
 
 }
 
@@ -31,7 +31,7 @@ h1 {
 
 
 #box {
-    width: 150px;
+    width:200px;
     transition:all 1s ease-in-out;
     object-fit: cover;
     aspect-ratio: 1;
@@ -43,7 +43,7 @@ h1 {
     background-color: steelblue;
     position: absolute;
     top: 0;
-    left: 150px;
+    left: 200px;
 }
 .container:hover .box1 {
     transform: translateX(-100%) rotateZ(90deg);
@@ -56,7 +56,7 @@ h1 {
     background-color: dimgray;
     position: absolute;
     top: 0;
-    left: 300px;
+    left: 400px;
 
 }
 .container:hover .box2 {
@@ -70,7 +70,7 @@ h1 {
     background-color: yellow;
     position: absolute;
     bottom: 0;
-    left: 150px;
+    left: 200px;
     
 }
 .container:hover .box3 {
@@ -79,12 +79,11 @@ h1 {
 
 
 
-
 .box4 {
     background-color: rosybrown;
     position: absolute;
     bottom: 0;
-    left: 300px;
+    left: 400px;
     
 }
 .container:hover .box4 {
