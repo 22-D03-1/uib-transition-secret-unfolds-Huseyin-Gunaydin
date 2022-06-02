@@ -32,9 +32,10 @@ h1 {
 
 #box {
     width:200px;
+    aspect-ratio: 1;
     transition:all 1s ease-in-out;
     object-fit: cover;
-    aspect-ratio: 1;
+ 
 }
 
 

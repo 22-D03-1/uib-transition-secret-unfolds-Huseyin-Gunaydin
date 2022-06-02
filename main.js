@@ -1,31 +1,29 @@
 function türkisch() {
   var yazdir = document.querySelector("h1");
   yazdir.innerHTML = "Merhaba";
- 
 }
 
 function deutsch() {
-    var yazdir = document.querySelector("h1");
+  var yazdir = document.querySelector("h1");
 
-    yazdir.innerHTML="Hallo";
+  yazdir.innerHTML = "Hallo";
 }
 
-  function englisch() {
-    var yazdir = document.querySelector("h1");
+function englisch() {
+  var yazdir = document.querySelector("h1");
 
-      yazdir.innerHTML="Hello";
-  }
+  yazdir.innerHTML = "Hello";
+}
+function arapca() {
+  var yazdir = document.querySelector("h1");
 
-  function französich() {
-    var yazdir = document.querySelector("h1");
+  yazdir.innerHTML = "Salut";
+}
 
-      yazdir.innerHTML="Salut";
-  }
+function französich() {
+  var yazdir = document.querySelector("h1");
 
+  yazdir.innerHTML = "أهلاً بك";
+}
 
-
-  const el=() =>{
-
-
-
-  }
+const el = () => {};
