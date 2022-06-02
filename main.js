@@ -17,13 +17,13 @@ function englisch() {
 function arapca() {
   var yazdir = document.querySelector("h1");
 
-  yazdir.innerHTML = "Salut";
+  yazdir.innerHTML = "أهلاً بك";
 }
 
 function französich() {
   var yazdir = document.querySelector("h1");
 
-  yazdir.innerHTML = "أهلاً بك";
+  yazdir.innerHTML = "Salut";
 }
 
 const el = () => {};
